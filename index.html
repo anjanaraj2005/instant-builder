@@ -1,0 +1,68 @@
+<html>
+<head>
+<style>
+#banner{
+border-radius:40px;
+background-color:white;
+width:100%;
+text-align:center;
+}
+#banner img{
+width: 300px;
+height: 300px;
+}
+#details
+{
+display:flex;
+gap:30px;
+}
+#bday
+{
+border-radius:30px;
+border:3px solid black;
+gap:30px;
+background-color:pink;
+}
+#cakes
+{
+border-radius:30px;
+border:3px solid black;
+gap:30px;
+background-color:grey
+}
+
+@media screen and (max-width:600px)
+{
+#details
+{
+flex-direction:column;
+}
+}
+
+</style>
+</head>
+<body>
+<div id="banner">
+<h1>BEST CAKES</h1>
+<img src="bestcake.jpg" >
+</div>
+<div id="details">
+<div id="cakes">
+<h1>Traditional Cakes</h1>
+<img src="traditional.jpg" >
+<ul>
+<li>Traditional Carrot Cake</li>
+<li>Caramel Cake</li>
+</ul>
+</div>
+<div id="bday">
+<h1>Birthday Cakes</h1>
+<img src="bday.jpg" >
+<ul>
+<li>Chocolate Cake</li>
+<li>Red Velvet Cake Cake</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
